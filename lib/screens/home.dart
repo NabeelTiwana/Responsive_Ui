@@ -74,7 +74,7 @@ class HomeScreen extends StatelessWidget {
                             return TaskCard(index: index);
                           },
                         ),
-                        SizedBox(height: MyConstant.spaceBtwSection*3),
+                        SizedBox(height: MyConstant.spaceBtwSection * 3),
                       ],
                     ),
                   ),

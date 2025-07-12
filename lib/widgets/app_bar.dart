@@ -10,7 +10,7 @@ class HomeAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding:EdgeInsets.symmetric(vertical: 10),
+      padding: EdgeInsets.symmetric(vertical: 10),
       child: AppBar(
         backgroundColor: Colors.transparent,
         //profile Picture & user Name
