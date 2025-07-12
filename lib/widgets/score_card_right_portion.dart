@@ -9,14 +9,14 @@ class ScoreCardRightPortion extends StatelessWidget {
     return Align(
       alignment: Alignment.centerRight,
       child: SizedBox(
-        width: MyConstant.homeCirccularIndicator,
-        height: MyConstant.homeCirccularIndicator,
+        width: MyConstant.homeCircularIndicator,
+        height: MyConstant.homeCircularIndicator,
         child: Stack(
           children: [
             //Indicator
             SizedBox(
-              width: MyConstant.homeCirccularIndicator,
-              height: MyConstant.homeCirccularIndicator,
+              width: MyConstant.homeCircularIndicator,
+              height: MyConstant.homeCircularIndicator,
               child: CircularProgressIndicator(
                 value: 0.9,
                 color: MyConstant.dark,

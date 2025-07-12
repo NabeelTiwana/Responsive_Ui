@@ -1,5 +1,9 @@
 import 'dart:ui';
 
+import 'package:flutter/material.dart';
+
+import 'data_model.dart';
+
 class MyConstant {
   //Images
   static const String profile = 'assets/images/MY photo.jpg';
@@ -31,6 +35,23 @@ class MyConstant {
   static const double borderRadiusLg = 32.0;
 
   static const double scoreCardSize = 160.0;
-  static const double homeCirccularIndicator = 110.0;
+  static const double homeCircularIndicator = 110.0;
   static const double emojiCardSize = 75.0;
+
+
+  static List<DataModel> data = [
+    DataModel(color: Colors.blue, title1: '7h', title2: '30m', name: 'Sleep', icon: Icons.ac_unit_outlined, description: "Good start, don't stop"),
+    DataModel(color: Colors.orange, title1: '3h', title2: '', name: 'Sunlight', icon: Icons.light_mode, description: "You've done it!"),
+    DataModel(color: Colors.green, title1: '1h', title2: '23m', name: 'Fasting', icon: Icons.free_breakfast, description: "Good start, don't stop"),
+    DataModel(color: Colors.purple, title1: '15', title2: 'pcs', name: 'Supplements', icon: Icons.sports_football_sharp, description: "Good start, don't stop"),
+    DataModel(color: Colors.blue, title1: '7h', title2: '30m', name: 'Sleep', icon: Icons.ac_unit_outlined, description: "Good start, don't stop"),
+    DataModel(color: Colors.orange, title1: '3h', title2: '', name: 'Sunlight', icon: Icons.light_mode, description: "You've done it!"),
+    DataModel(color: Colors.green, title1: '1h', title2: '23m', name: 'Fasting', icon: Icons.free_breakfast, description: "Good start, don't stop"),
+    DataModel(color: Colors.purple, title1: '15', title2: 'pcs', name: 'Supplements', icon: Icons.sports_football_sharp, description: "Good start, don't stop"),
+    DataModel(color: Colors.blue, title1: '7h', title2: '30m', name: 'Sleep', icon: Icons.ac_unit_outlined, description: "Good start, don't stop"),
+    DataModel(color: Colors.orange, title1: '3h', title2: '', name: 'Sunlight', icon: Icons.light_mode, description: "You've done it!"),
+    DataModel(color: Colors.green, title1: '1h', title2: '23m', name: 'Fasting', icon: Icons.free_breakfast, description: "Good start, don't stop"),
+    DataModel(color: Colors.purple, title1: '15', title2: 'pcs', name: 'Supplements', icon: Icons.sports_football_sharp, description: "Good start, don't stop"),
+  ];
+
 }
